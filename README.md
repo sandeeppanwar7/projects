@@ -1,7 +1,5 @@
 # Server-side rendering in Create React App
 
-_SSR with all the goodies, without ejecting._
-
 ## Goals
 
 - Create React App 
