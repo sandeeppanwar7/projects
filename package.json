@@ -81,7 +81,8 @@
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js",
-    "serve": "cross-env NODE_ENV=production node ./server/index.js"
+    "serve": "cross-env NODE_ENV=production node ./server/index.js",
+    "heroku-postbuild": "npm run build"
   },
   "browserslist": [
     ">0.2%",
